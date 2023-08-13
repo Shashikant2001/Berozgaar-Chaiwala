@@ -570,3 +570,75 @@ a:focus {
 
 
 /* Book Section end */
+
+/* About section Start */
+.about_section .row {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.about_section .img-box img {
+    max-width: 100%;
+}
+
+.about_section .detail-box p {
+    color: #999;
+    margin-top: 15px;
+}
+
+.about_section .detail-box a {
+    display: inline-block;
+    padding: 10px 45px;
+    background-color: #252525;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.about_section .detail-box a:hover {
+    background-color: #0c0c0c;
+}
+
+
+/* About Section End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer section Start*/
+.footer_section {
+    position: relative;
+    background-color: #252525;
+    text-align: center;
+}
+
+.footer_section p {
+    color: #ffffff;
+    padding: 25px 0;
+    margin: 0;
+}
+
+.footer_section p a {
+    color: inherit;
+}
+/* Footer section Ends */

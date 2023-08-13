@@ -323,33 +323,35 @@ a:focus {
     position: unset;
   }
 
-  .play_btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 100%;
-    width: 65px;
-    height: 65px;
-    position: relative;
-    z-index: 3;
-    margin-top: 15px;
-    margin-bottom: 45px;
+  
 
-    button {
-      background-color: $primary1;
+
+    .play_btn {
       display: flex;
       align-items: center;
       justify-content: center;
       border-radius: 100%;
-      width: 100%;
-      height: 100%;
-      border: none;
+      width: 65px;
+      height: 65px;
       position: relative;
-      z-index: 5;
-      color: $white;
-      outline: none;
-    }
-
+      z-index: 3;
+      margin-top: 15px;
+      margin-bottom: 45px;
+  
+      button {
+        background-color: $primary1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 100%;
+        width: 100%;
+        height: 100%;
+        border: none;
+        position: relative;
+        z-index: 5;
+        color: $white;
+        outline: none;
+      }
     &::before {
       content: "";
       width: 100%;
